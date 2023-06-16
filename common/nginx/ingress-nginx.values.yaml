@@ -452,7 +452,7 @@ ingress-nginx:
       ##
       externalIPs: []
 
-      loadBalancerIP: "10.64.149.40"
+      loadBalancerIP: "192.168.1.120"
       loadBalancerSourceRanges: []
 
       enableHttp: true
