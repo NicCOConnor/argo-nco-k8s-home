@@ -3,4 +3,4 @@ spec:
     server: https://kubernetes.default.svc
   source: 
     repoURL: https://github.com/NicCOConnor/argo-nco-k8s-home.git
-    targetRevisions: HEAD
+    targetRevision: HEAD
