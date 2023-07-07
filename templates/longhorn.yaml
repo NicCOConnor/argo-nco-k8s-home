@@ -9,11 +9,11 @@ spec:
   destination:
     namespace: longhorn-system
     server: {{ .Values.spec.destination.server }}
-  source:  
-    helm:
-      valueFiles:
-      - longhorn.values.yaml
   project: default
+  source:
     path: common/longhorn
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
+    helm:
+      valueFiles:
+      - longhorn.values.yaml
